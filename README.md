@@ -5,14 +5,13 @@ The HashiCorp's official [tutorials](https://developer.hashicorp.com/terraform/t
 When we type `terraform init` , Terraform verifies and installs dependencies to make sure the environment is ready: 
 
 - Terraform initializes the present working directory by reading the config files (.tf) and starts loading any referenced modules.
-    <details>
-  <summary>How does Terraform read the config files?</summary>
-  Terraform reads the config files by parsing them using a parser to understand the desired infrastructure setup. It also performs validation to ensure that the config is syntactically correct.
-</details>
 
-    - How does Terraform read the config files?
-        
-        Terraform reads the config files by parsing them using a parser to understand the desired infrastructure setup. It also performs validation to ensure that the config is syntactically correct.
+  <details>
+  <summary>How does Terraform read the config files?</summary>
+      
+  Terraform reads the config files by parsing them using a parser to understand the desired infrastructure setup. It also performs validation to ensure that the config is syntactically correct.
+  
+</details>
         
 - It downloads the provider plugins from the provider block in the configuration. **Provider initialization** occurs through provider’s API by authenticating and setting up connections to the provider API’s endpoints.
 - Terraform sets up the remote backend configuration (for ex: AWS S3, Azure’s Blob Storage) if it specified in the config.
