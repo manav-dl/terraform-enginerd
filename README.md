@@ -23,7 +23,6 @@ When we type `terraform plan` , Terraform creates an execution plan outlining th
 
    <details>
     <summary>How does Terraform analyze the config file?</summary>
-        
         Terraform performs a more comprehensive parsing and validation during `terraform plan` or `terraform apply`:
         
         - The parser breaks down the config files into tokens (Identifies tokens by Lexical Analysis then classifies them by data structures), representing keyworks, identifiers, strings, numbers, etc.
