@@ -9,7 +9,7 @@ When we type `terraform init` , Terraform verifies and installs dependencies to 
   <details>
   <summary>How does Terraform read the config files?</summary>
       <br>
-  Terraform reads the config files by parsing them using a parser to understand the desired infrastructure setup. It also performs validation to ensure that the config is syntactically correct.
+   Terraform reads the config files by parsing them using a parser to understand the desired infrastructure setup. It also performs validation to ensure that the config is syntactically correct.
   
 </details>
         
