@@ -5,12 +5,9 @@ The HashiCorp's official [tutorials](https://developer.hashicorp.com/terraform/t
 When we type `terraform init` , Terraform verifies and installs dependencies to make sure the environment is ready: 
 
 - Terraform initializes the present working directory by reading the config files (.tf) and starts loading any referenced modules.
-
-  <details>
-  <summary>How does Terraform read the config files?</summary>
-   Terraform reads the config files by parsing them using a parser to understand the desired infrastructure setup. It also performs validation to ensure that the config is syntactically correct.
-  
-</details>
+    - How does Terraform read the config files?
+        
+        Terraform reads the config files by parsing them using a parser to understand the desired infrastructure setup. It also performs validation to ensure that the config is syntactically correct.
         
 - It downloads the provider plugins from the provider block in the configuration. **Provider initialization** occurs through provider’s API by authenticating and setting up connections to the provider API’s endpoints.
 - Terraform sets up the remote backend configuration (for ex: AWS S3, Azure’s Blob Storage) if it specified in the config.
@@ -20,22 +17,16 @@ When we type `terraform init` , Terraform verifies and installs dependencies to 
 When we type `terraform plan` , Terraform creates an execution plan outlining the actions needed to transition from current state to the desired state:
 
 - **Parsing**: Terraform analyzes the config file and constructs an Abstract Syntax Tree (AST- an in-memory data structure) of the desired state of the infrastructure.
-
-   <details>
-    <summary>How does Terraform analyze the config file?</summary>
+    - How does Terraform analyze the config file?
+        
         Terraform performs a more comprehensive parsing and validation during `terraform plan` or `terraform apply`:
         
         - The parser breaks down the config files into tokens (Identifies tokens by Lexical Analysis then classifies them by data structures), representing keyworks, identifiers, strings, numbers, etc.
         - It constructs an abstract syntax tree (AST) (in-memory data structure) from these tokens, representing the logical structure of the configuration.
-           <details>
-            <summary>AST:</summary>
+            - AST:
                 - Hierarchical Data Structure representing the syntactic structure of code.
                 - During parsing Terraform’s parser reads through the text-based config files and generates tokens representing different elements such as keywords, identifiers, operators, etc.
                 - Tokens are then organized and structured into a tree-like data structure where each node in the tree represents a specific element of the config and the relations between nodes reflect the syntactic relations in the config.
-
-  </details>
-
-  </details>
 - **Validation**: Terraform also performs a validation check to ensure the configuration is syntactically correct.
     - How is the validation performed?
         - Terraform performs validation checks on the AST to ensure that the configuration is syntactically correct and follows Terraform's grammar rules.
