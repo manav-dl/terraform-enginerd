@@ -32,7 +32,9 @@ When we type `terraform plan` , Terraform creates an execution plan outlining th
                 - Hierarchical Data Structure representing the syntactic structure of code.
                 - During parsing Terraform’s parser reads through the text-based config files and generates tokens representing different elements such as keywords, identifiers, operators, etc.
                 - Tokens are then organized and structured into a tree-like data structure where each node in the tree represents a specific element of the config and the relations between nodes reflect the syntactic relations in the config.
-          </details>
+
+  </details>
+
   </details>
 - **Validation**: Terraform also performs a validation check to ensure the configuration is syntactically correct.
     - How is the validation performed?
