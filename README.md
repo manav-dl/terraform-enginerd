@@ -1,4 +1,4 @@
-**The HashiCorp's official [tutorials](https://developer.hashicorp.com/terraform/tutorials "Tutorials | Terraform") and [documentation](https://developer.hashicorp.com/terraform/docs "Documentation | Terraform")** are a good starting point to understand Terraform. This documentation is for gaining a *comprehensive understanding* of what happens beneath the surface during key Terraform operations such as `init`, `plan`, and `apply`.
+**The HashiCorp's official [tutorials](https://developer.hashicorp.com/terraform/tutorials "Tutorials | Terraform") and [documentation](https://developer.hashicorp.com/terraform/docs "Documentation | Terraform")** are a good starting point to understand Terraform. This documentation is for gaining a *comprehensive understanding* of what happens beneath the surface during key Terraform operations such as `init`, `plan`, and `apply`. For a fun hands-on example, do check out [Hogwarts Wizarding School Access Management](Hogwarts-Access_Management/README.md).
 
 ---
 
