@@ -19,7 +19,7 @@ We have around 3 groups, comprising 9 students and staff members willing to help
 Remember folks, we always need to follow the principle of least priviledge afterall, we don't want what happened with our previous Defense Against Dark Arts professor to happen again, do we?
 ![access_table](https://github.com/manav-dl/terraform-enginerd/assets/122433722/afe756db-3cb8-4c3a-8f37-2a0a0a58dbf8)
 
-
+-
 
 ```
 # At first we need to specify the provider block:
