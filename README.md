@@ -7,6 +7,7 @@
 ##
        
 <a name= int></a>
+
 ### Initialize (`terraform init`):
 
 When we type `terraform init`, Terraform verifies and installs dependencies to ensure the environment is ready: 
@@ -22,6 +23,7 @@ When we type `terraform init`, Terraform verifies and installs dependencies to e
 ---
 
 <a name=plan></a>
+
 ### Plan (`terraform plan`):
 
 When we type `terraform plan`, Terraform creates an execution plan outlining the actions needed to transition from current state to the desired state:
@@ -89,6 +91,7 @@ When we type `terraform plan`, Terraform creates an execution plan outlining the
 ---
 
 <a name=apply></a>
+
 ### Apply (`terraform apply`):
 
 Terraform executes the actions outlined in the execution plan through the provider’s API:
