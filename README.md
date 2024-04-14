@@ -4,8 +4,7 @@
 - [**Initialize**](#int)
 - [**Plan**](#plan)
 - [**Apply**](#apply)
-
-<br>
+##
        
 <a name= int></a>
 ### Initialize (`terraform init`):
