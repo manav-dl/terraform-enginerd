@@ -1,7 +1,13 @@
 **The HashiCorp's official [tutorials](https://developer.hashicorp.com/terraform/tutorials "Tutorials | Terraform") and [documentation](https://developer.hashicorp.com/terraform/docs "Documentation | Terraform")** are a good starting point to understand Terraform. This documentation is for gaining a *comprehensive understanding* of what happens beneath the surface during key Terraform operations such as `init`, `plan`, and `apply`. For a fun hands-on example, do check out [Hogwarts Wizarding School Access Management](Hogwarts-Access_Management/README.md).
 
----
+## Table of Contents:
+- [**Initialize**](#int)
+- [**Plan**](#plan)
+- [**Apply**](#apply)
 
+<br>
+       
+<a name= int></a>
 ### Initialize (`terraform init`):
 
 When we type `terraform init`, Terraform verifies and installs dependencies to ensure the environment is ready: 
@@ -16,6 +22,7 @@ When we type `terraform init`, Terraform verifies and installs dependencies to e
 
 ---
 
+<a name=plan></a>
 ### Plan (`terraform plan`):
 
 When we type `terraform plan`, Terraform creates an execution plan outlining the actions needed to transition from current state to the desired state:
@@ -82,6 +89,7 @@ When we type `terraform plan`, Terraform creates an execution plan outlining the
 
 ---
 
+<a name=apply></a>
 ### Apply (`terraform apply`):
 
 Terraform executes the actions outlined in the execution plan through the provider’s API:
