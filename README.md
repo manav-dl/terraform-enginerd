@@ -4,10 +4,10 @@
 - [**Initialize**](#int)
 - [**Plan**](#plan)
 - [**Apply**](#apply)
+- [addition](#place)
 ##
        
 <a name= int></a>
-
 ### Initialize (`terraform init`):
 
 When we type `terraform init`, Terraform verifies and installs dependencies to ensure the environment is ready: 
@@ -103,3 +103,4 @@ Terraform executes the actions outlined in the execution plan through the provid
 - The state file in the backend is updated to reflect the changes made to the infrastructure.
 
 In the same way, destruction (`terraform destroy`) is carried out.
+<a name= place></a>
